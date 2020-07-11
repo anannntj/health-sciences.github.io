@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/gh.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">HOME</a>
+        </div>
+
+        
+    
+
+        <div class="nav-link-wrapper">
+          <a href="team.html">OUR TEAM</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="conclusion.html">CONCLUSION</a>
+        </div>
+      </div>
+
+      
+
+      <div class="right-side">
+        <div class="brand">
+          HEALTH SCIENCES
+        </div>
+      </div>
+    </div>
+
+    <div class="anti"><hr><h1>ANTIBIOTICS</h1><hr></div>
+    <div class="anti1"><h1>An antibiotic is a type of antimicrobial substance active against bacteria. It is<br> the most important type of antibacterial agent for fighting bacterial infections<br> and antibiotic medications are widely used in the treatment and prevention<br> of such infections. They may either kill or inhibit the growth of bacteria.<br>  
+Antibiotics are medications used to fight infections caused by bacteria. They’re<br> also called antibacterials. They treat infections by killing or decreasing the growth of bacteria. </h1></div>
+<div class="antimg"><img src="images/ab1.jpg"></div>
+<div class="func"><hr><h1>FUNCTIONING OF ANTIBIOTIC</h1><hr></div>
+<div class="func1"><h1>Antibiotics fight bacterial infections either by killing bacteria or slowing and<br> suspending its growth. They do this by:<br><br> 
+• attacking the wall or coating surrounding bacteria<br><br> 
+• interfering with bacteria reproduction <br><br>
+• blocking protein production in bacteria </h1></div>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

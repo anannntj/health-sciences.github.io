@@ -1,0 +1,110 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.anti{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.anti h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.anti1{
+  position: absolute;
+  top: 34%;
+  left: 10%;
+}
+
+.anti1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+
+.antimg{
+  position: absolute;
+  top: 25%;
+  left: 75%;
+}
+
+.antimg{
+  width: 300px;
+  height: 200px;
+}
+
+.func{
+  position: absolute;
+  top: 64%;
+  left: 10%;
+}
+
+.func h1{
+  font: italic;
+  font-size: 30px;
+}
+
+
+.func1{
+  position: absolute;
+  top: 81%;
+  left: 10%;
+}
+
+.func1 h1{
+  font: bolder;
+  font-size: 19px;
+}

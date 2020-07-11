@@ -1,0 +1,189 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.anatomy{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.anatomy h1{
+  font: italic;
+  font-size: 30px;
+
+}
+
+.anatomy1{
+  position: absolute;
+  top: 33%;
+  left: 10%;
+}
+
+.anatomy1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.anaimg{
+  position: absolute;
+  top: 26%;
+  left: 79%;
+}
+
+.anaimg img{
+  width: 250px;
+  height: 175px;
+}
+
+.ha{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+
+.ha h1{
+  font: italic;
+  font-size: 30px;
+
+}
+
+.ha1{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+.ha1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.haimg{
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+.haimg img{
+  width: 200px;
+  height: 250px;
+}
+
+.origin{
+  position: absolute;
+  top: 115%;
+  left: 10%;
+}
+
+.origin h1{
+  font: italic;
+  font-size: 30px;
+
+}
+
+.origin1{
+  position: absolute;
+  top: 133%;
+  left: 10%;
+}
+
+.origin1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.orimg{
+  position: absolute;
+  top: 140%;
+  left: 72%;
+}
+
+.orimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.ma{
+  position: absolute;
+  top: 188%;
+  left: 10%;
+}
+
+.ma h1{
+  font: italic;
+  font-size: 30px;
+
+}
+
+.ma1{
+  position: absolute;
+  top: 205%;
+  left: 10%;
+}
+
+.ma1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.maimg{
+  position: absolute;
+  top: 210%;
+  left: 72%;
+}
+
+.maimg img{
+  width: 300px;
+  height: 200px;
+}

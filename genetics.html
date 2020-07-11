@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/gene.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">HOME</a>
+        </div>
+
+        
+    
+
+        <div class="nav-link-wrapper">
+          <a href="team.html">OUR TEAM</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="conclusion.html">CONCLUSION</a>
+        </div>
+      </div>
+
+      
+
+      <div class="right-side">
+        <div class="brand">
+          HEALTH SCIENCES
+        </div>
+      </div>
+    </div>
+
+    <div class="origin"><hr><h1>HISTORY</h1><hr></div>
+    <div class="origin1"><h1>The observation that living things inherit traits from their parents has been used<br> since prehistoric times to improve crop plants and animals through selective breeding.<br> The modern science of genetics, seeking to understand this process, began with<br> the work of the Augustinian friar Gregor Mendel in the mid-19th century.<br><br>
+
+Prior to Mendel, Imre Festetics, a Hungarian noble, who lived in Kőszeg before Mendel, was<br> the first who used the word "genetics." He described several rules of genetic inheritance<br> in his work The genetic law of the Nature (Die genetische Gesätze der <br>Natur, 1819). His second law is the same as what Mendel published. In his third<br> law, he developed the basic principles of mutation</h1></div>
+<div class="geimg"><img src="images/gene.jpg"></div>
+<div class="mutation"><hr><h1>MUTATIONS</h1><hr></div>
+<div class="mu1"><h1>During the process of DNA replication, errors occasionally occur in the polymerization<br> of the second strand. These errors, called mutations, can affect the phenotype of an organism,<br> especially if they occur within the protein coding sequence of a gene. Error<br> rates are usually very low—1 error in every 10–100 million bases—due to the <br>"proofreading" ability of DNA polymerases.[76][77] Processes that increase the <br>rate of changes in DNA are called mutagenic: mutagenic chemicals promote errors in DNA<br>  replication,often by interfering with the structure of base-pairing, while UV radiation induces <br>mutations by causing damage to the DNA structure.[78] Chemical damage to DNA occurs<br> naturally as well and cells use DNA repair mechanisms to repair mismatches<br> and breaks. The repair does not, however, always restore the original sequence.<br> A particularly important source of DNA damages appears to be reactive oxygen species<br> produced by cellular aerobic respiration, and these can lead to mutations.</h1></div>
+<div class="gmimg"><img src="images/gm.jpg"></div>
+<div class="evo"><hr><h1>EVOLUTION</h1><hr></div>
+<div class="evo1"><h1>Mutations alter an organism's genotype and occasionally this causes different phenotypes<br> to appear. Most mutations have little effect on an organism's phenotype, health, or<br> reproductive fitness.[82] Mutations that do have an effect are usually<br> detrimental, but occasionally some can be beneficial.[83] Studies in the<br> fly Drosophila melanogaster suggest that if a mutation changes a protein produced<br> by a gene, about 70 percent of these mutations will be harmful with the remainder being<br> either neutral or weakly beneficial.</h1></div>
+<div class="evimg"><img src="images/evo.jpg"></div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

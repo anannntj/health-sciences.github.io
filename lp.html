@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/p.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">HOME</a>
+        </div>
+
+        
+    
+
+        <div class="nav-link-wrapper">
+          <a href="team.html">OUR TEAM</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="conclusion.html">CONCLUSION</a>
+        </div>
+      </div>
+
+      
+
+      <div class="right-side">
+        <div class="brand">
+          HEALTH SCIENCES
+        </div>
+      </div>
+    </div>
+     
+     <div class="bacteria"><hr><h1>BACTERIA</h1><hr></div>
+     <div class="bac1"><h1>Bacteria are a type of biological cell. They constitute a large domain of prokaryotic<br> microorganisms. Typically a few micrometres in length, bacteria have a number of shapes,<br> ranging from spheres to rods and spirals. Bacteria were among the first life forms <br>to appear on Earth, and are present in most of its habitats.<br><br> 
+ 
+What are the 5 types of bacteria?<br><br> 
+ 
+Bacteria are the plural of bacterium, which are microscopic one-celled organisms. They are<br> found everywhere and can be harmful, as in infections; or they can be beneficial, as<br> in fermentation or decomposition. Five types of bacteria are: Coccus, <br>Bacillus, Spirillum, Rickettsia, and Mycoplasma. 
+ 
+ </h1></div>
+     <div class="bacimg"><img src="images/bact1.jpg"></div>
+
+    <div class="ub"><hr><h1>USEFUL BACTERIAS</h1><hr></div>
+    <div class="ub1"><h1>Bacteria have long been used by humans to create food products such as cheese, yoghurt,<br> pickles, soy sauce and vinegar. We are also able to use bacteria to break down our<br> sewage and to clean up oil spills. 
+Many bacteria are very fast growing<br> – under ideal conditions, Escherichia coli (E. Coli) are able to double their<br> number in 20 minutes. This makes them very useful tools in molecular biology and biochemistry,<br> as they can be manipulated much faster than more complex and slower growing<br> organisms. We can manipulate bacteria to grow a protein of interest,<br> for example, insulin, and then grow them in large vats to produce a large<br> quantity of the desired protein. </h1></div>
+
+    <div class="ubimg"><img src="images/ub.jpg"></div>
+    <div class="pro"><hr><h1>PROTOZOA</h1><hr></div>
+    <div class="pro1"><h1>1. There are about 50,000 known species of Phylum Protozoa.<br><br> 2. Protozoans exhibit mainly two forms of life; free-living (aquatic, <br>freshwater, seawater) and parasitic (ectoparasites or endoparasites).<br> They are also commensal in habitat.<br><br> 3. They are small, usually microscopic, not visualize without a microscope.<br><br> 4. They are the simplest and primitive of all animals.<br><br> 5. They have a simple body organization. i.e. with a protoplasmic grade of organization. </h1></div>
+    <div class="proimg"><img src="images/pro1.jpg"></div>
+    <div class="proi"><hr><h1>PROTOZOAN INFECTIONS</h1><hr></div>
+    <div class="proi1"><h1>Protozoa are parasitic organisms found more commonly outside of the United States<br> with a few exceptions. The most notable of the exceptions is Pneumocystis<br> carinii, a protozoan infection that is a primary disease of the lungs. (There<br> is also evidence that some forms of P. carinii may be fungal.) Other parasitic<br> diseases, including malaria, toxoplasmosis, trichomoniasis, and dirofilariasis (<br>heartworm disease of dogs), are rarely seen in the United States. P. carinii<br> pneumonia is a disease seen almost exclusively in the immunocompromised<br> patient. Fishman4 identifies four categories of immunocompromised<br> patients affected by P. carinii:   </h1></div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

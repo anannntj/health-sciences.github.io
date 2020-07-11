@@ -1,0 +1,147 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.brand{
+  position: absolute;
+  top: 5%;
+  left: 84%;
+}
+
+.history{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.history h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.his1{
+  position: absolute;
+  top: 33%;
+  left: 10%;
+}
+
+.his1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.hisimg{
+  position: absolute;
+  top: 33%;
+  left: 73%;
+}
+
+.hisimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.deter{
+  position: absolute;
+  top: 100%;
+  left: 10%;
+}
+
+.deter h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.deter1{
+  position: absolute;
+  top: 120%;
+  left: 10%;
+}
+
+.deter1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.diet{
+  position: absolute;
+  top: 159%;
+  left: 10%;
+}
+
+.diet h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.diet1{
+  position: absolute;
+  top: 177%;
+  left: 10%;
+}
+
+.diet1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.dietimg{
+  position: absolute;
+  top: 177%;
+  left: 75%;
+}
+
+.dietimg img{
+  width: 300px;
+  height: 200px;
+}

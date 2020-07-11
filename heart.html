@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/heart.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">HOME</a>
+        </div>
+
+        
+    
+
+        <div class="nav-link-wrapper">
+          <a href="team.html">OUR TEAM</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="conclusion.html">CONCLUSION</a>
+        </div>
+      </div>
+
+      
+
+      <div class="right-side">
+        <div class="brand">
+          HEALTH SCIENCES
+        </div>
+      </div>
+    </div>
+
+    <div class="mo"><hr><h1>MENTAL DISORDER</h1><hr></div>
+    <div class="mo1"><h1>Mental illness, also called mental health disorders, refers to a wide range of <br>mental health conditions — disorders that affect your mood, thinking and behavior.<br> Examples of mental illness include depression, anxiety disorders, schizophrenia,<br> eating disorders and addictive behaviors.
+Many people have mental health concerns from<br> time to time. But a mental health concern becomes a mental illness when ongoing<br> signs and symptoms cause frequent stress and affect your ability to function.<br>
+A mental illness can make you miserable and can cause problems in your daily life,<br> such as at school or work or in relationships. In most cases,<br> symptoms can be managed with a combination of medications and talk therapy (psychotherapy).
+</h1></div>
+     <div class="moimg"><img src="images/mo1.jpg"></div>
+     <div class="sy"><hr><h1>SYMPTOMS</h1><hr></div>
+     <div class="sy1"><h1>Examples of signs and symptoms include:<br><br>
+• Feeling sad or down<br><br>
+• Confused thinking or reduced ability to concentrate<br><br>
+• Excessive fears or worries, or extreme feelings of guilt<br><br>
+• Extreme mood changes of highs and lows<br><br>
+• Withdrawal from friends and activities<br><br>
+• Significant tiredness, low energy or problems sleeping<br><br>
+• Detachment from reality (delusions), paranoia or hallucinations<br><br>
+• Inability to cope with daily problems or stress<br><br>
+• Trouble understanding and relating to situations and to people<br><br>
+• Problems with alcohol or drug use<br><br>
+• Major changes in eating habits<br><br>
+• Excessive anger, hostility or violence<br><br>
+• Suicidal thinking<br><br>
+</h1></div>
+
+<div class="fimg"><img src="images/fs.jpg"></div>
+<div class="aimg"><img src="images/alc.jpg"></div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

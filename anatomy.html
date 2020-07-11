@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/anatomy.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">HOME</a>
+        </div>
+
+        
+    
+
+        <div class="nav-link-wrapper">
+          <a href="team.html">OUR TEAM</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="conclusion.html">CONCLUSION</a>
+        </div>
+      </div>
+
+      
+
+      <div class="right-side">
+        <div class="brand">
+          HEALTH SCIENCES
+        </div>
+      </div>
+    </div>
+
+    <div class="anatomy"><hr><h1>ANATOMY</h1><hr></div>
+    <div class="anatomy1"><h1>Anatomy is the branch of biology concerned with the study of thestructure of organisms and their parts.<br>  it includes their systems, organs and tissues. It includes the appearance and position of the various parts, <br>the materials from which they are composed, their locations and their relationships with other parts. an<br> anatomist is concerned with  the shape, size, position, structure, blood supply and innervation of an organ</h1></div>
+    <div class="anaimg"><img src="images/ana.jpg"></div>
+    <div class="ha"><hr><h1>HUMAN ANATOMY</h1><hr></div>
+    <div class="ha1"><h1>Human anatomy is one of the essential basic sciences that are applied in medicine.<br> The body is studied by health professionals, physiologists, anatomists, and by artists to assist <br>them in their work. Human anatomy is the study of the shape and form of<br>  the human body. The human body has four limbs, a head and a neck. The body's shape is<br> determined by a strong skeleton made of bone and cartilage, surrounded by fat,<br> muscle, connective tissue, organs, and other structures. The spine at the back of the<br> skeleton contains the flexible vertebral column which surrounds the spinal cord, which is a<br> collection of nerve fibres connecting the brain to the rest of the body.<br> Nerves connect the spinal cord and brain to the rest of the body. . Blood<br> vessels carry blood throughout the body, which moves because of the beating of the heart. </h1></div>
+
+    <div class="haimg"><img src="images/ha.jpg"></div>
+
+    <div class="origin"><hr><h1>HISTORY OF ANATOMY</h1><hr></div>
+    <div class="origin1"><h1>. The history of anatomy is characterized by a progressive understanding of the functions<br> of the organs and structures of the human body. Methods have also improved dramatically, <br>advancing from the examination of animals by dissection of carcasses and cadavers <br>(corpses) to 20th century medical imaging techniques including X-ray, ultrasound,<br> and magnetic resonance imaging. Methods used include dissection, and endoscopy,<br> Angiography using X-rays or magnetic resonance angiography are methods to<br> visualize blood vessels. Ancient Greek anatomy and physiology underwent great changes and<br> advances throughout the early medieval world. Over time, this medical practice<br> expanded by a continually developing understanding of the functions of organs <br>and structures in the body. Phenomenal anatomical observations of the human body<br> were made, which have contributed towards the understanding of the brain, eye, liver,<br> reproductive organs and the nervous system.</h1></div>
+
+    <div class="orimg"><img src="images/hia.png"></div>
+
+    <div class="ma"><hr><h1>MODERN ANATOMY</h1><hr></div>
+    <div class="ma1"><h1>Before the modern medical era, the main means for studying the internal structures<br> of the body were dissection of the dead and inspection, palpation and auscultation of<br> the living. It was the advent of microscopy that opened up an understanding of the <br>building blocks that constituted living tissues. Technical advances in the development of<br> achromatic lenses increased the resolving power of the microscope and around 1839,<br> Matthias Jakob Schleiden and Theodor Schwann identified that cells were the fundamental<br> unit of organization of all living things. Staining techniques using artificial dyes were<br> established to help distinguish between different types of tissue. The invention of<br> the electron microscope brought a great advance in resolution power and<br> allowed research into the ultrastructure of cells and the organelles and other<br> structures within them. In the 1950s, the use of X-ray diffraction for studying<br> the crystal structures of proteins, nucleic acids and other biological molecules gave rise to a<br> new field of molecular anatomy.</h1></div>
+
+     <div class="maimg"><img src="images/maimg.jpg"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

@@ -1,0 +1,129 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+.mo{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.mo h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.mo1{
+  position: absolute;
+  top: 34%;
+  left: 10%;
+}
+
+.mo1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.moimg{
+  position: absolute;
+  top: 31%;
+  left: 75%;
+}
+
+.moimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.sy{
+  position: absolute;
+  top: 75%;
+  left: 10%;
+}
+
+.sy h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.sy1{
+  position: absolute;
+  top: 92%;
+  left: 10%;
+}
+
+.sy1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.fimg{
+  position: absolute;
+  top: 87%;
+  left: 75%;
+}
+
+.fimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.aimg{
+  position: absolute;
+  top: 140%;
+  left: 75%;
+}
+
+.aimg img{
+  width: 300px;
+  height: 200px;
+}

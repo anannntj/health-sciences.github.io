@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/virus.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">HOME</a>
+        </div>
+
+        
+    
+
+        <div class="nav-link-wrapper">
+          <a href="team.html">OUR TEAM</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="conclusion.html">CONCLUSION</a>
+        </div>
+      </div>
+
+      
+
+      <div class="right-side">
+        <div class="brand">
+          <hr>HEALTH SCIENCES<hr>
+        </div>
+      </div>
+    </div>
+
+    <div class="history"><hr><h1>HISTORY OF VIRUSES</h1><hr></div>
+    <div class="history1"><h1>The word virus appeared in 1599 and originally meant "venom".
+A very early form of vaccination<br> known as variolation was developed several thousand years ago in China. It involved the<br> application of materials from smallpox sufferers in order to immunize others.
+ In 1796<br> Edward Jenner developed a much safer method, using cowpox to successfully immunize<br> a young boy against smallpox, and this practice was widely adopted. Vaccinations against<br> other viral diseases followed, including the successful rabies vaccination by Louis Pasteur in 1886.
+</h1></div>
+
+    <div class="hisimg"><img src="images/louis.jpg"></div>
+
+    <div class="classification"><hr><h1>CLASSIFICATION</h1><hr></div>
+    <div class="classification1"><h1>The most useful and most widely used classification system distinguishes<br> viruses according to the type of nucleic acid they<br> use as genetic material and the viral replication method they<br> employ to coax host cells into producing more viruses:<br>
+• DNA viruses (divided into double-stranded DNA viruses and single-stranded<br> DNA viruses),<br><br>
+• RNA viruses (divided into positive-sense single-stranded RNA viruses,<br> negative-sense single-stranded RNA viruses and the much less common double<br>-stranded RNA viruses),<br><br>
+• reverse transcribing viruses (double-stranded reverse-transcribing DNA viruses and single-stranded reverse-transcribing RNA viruses including retroviruses).<br><br>
+</h1></div>
+<div class="classimg"><img src="images/bal.png"></div>
+<div class="origin"><hr><h1>ORIGIN</h1><hr></div>
+<div class="origin1"><h1>1. Viruses arose from non-living matter, separately from yet in parallel to cells, perhaps in the form of self-replicating RNA ribozymes similar to viroids.<br><br>
+2.  Viruses arose by genome reduction from earlier, more competent cellular life forms that became parasites to host cells and subsequently lost most of their functionality; examples of such tiny parasitic prokaryotes are Mycoplasma and Nanoarchaea.<br><br>
+3.  Viruses arose from mobile genetic elements of cells (such as transposons, retrotransposons or plasmids) that became encapsulated in protein capsids, acquired the ability to "break free" from the host cell and infect other cells.<br><br>
+</h1></div>
+
+     <div class="response"><hr><h1>RESPONSE OF VERTEBRATE BODY</h1><hr></div>
+
+     <div class="response1"><h1>When the immune system of a vertebrate encounters a virus, it may produce specific<br> antibodies which bind to the virus and neutralize its infectivity or mark it for destruction.<br> Antibody presence in blood serum is often used to determine whether a person has been<br> exposed to a given virus in the past, with tests such as ELISA. Vaccinations protect<br> against viral diseases, in part, by eliciting the production of antibodies. Monoclonal<br> antibodies, specific to the virus, are also used for detection, as in fluorescence microscopy.<br>
+The second defense of vertebrates against viruses, cell-mediated immunity,<br> involves immune cells known as T cells: the body's cells constantly display short fragments<br> of their proteins on the cell's surface, and if a T cell recognizes a suspicious viral fragment there,<br> the host cell is destroyed and the virus-specific T-cells proliferate.<br> This mechanism is jump-started by certain vaccinations.
+</h1></div>
+
+      <div class="use"><hr><h1>MODERN USES OF VIRUSES</h1><hr></div>
+
+      <div class="use1"><h1>A new application of genetically engineered viruses in nanotechnology was<br> recently described; see the uses of viruses in material science and nanotechnology.<br> For use in mapping neurons see the applications of pseudorabies in neuroscience.<br>Viruses are being used as vectors or carriers that take the required material<br> for treatment of a disease to various target cells. They have been studied <br>extensively in management of inherited diseases and genetic engineering as well<br> as cancers.</h1></div>
+
+      <div class="resimg"><img src="images/human.png"></div>
+      <div class="useimg"><img src="images/endv.jpg"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

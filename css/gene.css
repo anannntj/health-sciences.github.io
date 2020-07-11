@@ -1,0 +1,155 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.origin{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.origin h1{
+
+  font: italic;
+  font-size: 30px;
+}
+
+.origin1{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.origin1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.geimg{
+  position: absolute;
+  top: 28%;
+  left: 71%;
+}
+
+.geimg img{
+  width: 350px;
+  height: 220px;
+}
+
+
+.mutation{
+  position: absolute;
+  top: 77%;
+  left: 10%;
+}
+
+.mutation h1{
+
+  font: italic;
+  font-size: 30px;
+}
+
+.mu1{
+  position: absolute;
+  top: 95%;
+  left: 10%;
+}
+
+.mu1 h1{
+  font-size: 19px;
+  font: bolder;
+}
+
+.gmimg{
+  position: absolute;
+  top: 100%;
+  left: 75%;
+}
+
+.gmimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.evo{
+  position: absolute;
+  top: 152%;
+  left: 10%;
+}
+
+.evo h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.evo1{
+  position: absolute;
+  top: 172%;
+  left: 10%;
+}
+
+.evo1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.evimg{
+  position: absolute;
+  top: 160%;
+  left: 71%;
+}
+
+.evimg img{
+  width: 320px;
+  height: 200px;
+}

@@ -1,0 +1,218 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.history{
+position: absolute;
+  top: 18%;
+  left: 10%;
+  transform: translate(-50%.-50%);
+}
+.history h1{
+  font-size: 30px;
+  font: italic;
+}
+
+.history1{
+  position: absolute;
+  top: 35%;
+  left: 10%; 
+}
+
+.history1 h1{
+ 
+  font-size: 19px;
+  font: bolder;
+}
+
+.hisimg{
+  position: absolute;
+  top: 20%;
+  left: 80%;
+}
+
+.hisimg img{
+  height: 265px;
+  width: 200px;
+}
+
+.classification{
+  position: absolute;
+  top: 69%;
+  left: 10%;
+  transform: translate(-50%.-50%);
+}
+.classification h1{
+  font-size: 30px;
+  font: italic;
+}
+
+.classification1{
+position: absolute;
+  top: 89%;
+  left: 10%; 
+}
+
+.classification1 h1{
+ 
+  font-size: 19px;
+  font: bolder;
+}
+
+.brand{
+  position: absolute;
+  top: 4%;
+  left: 86%;
+}
+
+.classimg{
+  position: absolute;
+  top: 93%;
+  left: 68%;
+}
+
+.classimg img{
+  width: 325px;
+  height: 190px;
+}
+
+.origin{
+  position: absolute;
+  top: 152%;
+  left: 10%;
+}
+
+.origin h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.origin1{
+position: absolute;
+  top: 171%;
+  left: 10%; 
+}
+
+.origin1 h1{
+ 
+  font-size: 19px;
+  font: bolder;
+}
+
+.response{
+  position: absolute;
+  top: 211%;
+  left: 10%;
+}
+
+.response h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.response1{
+position: absolute;
+  top: 229%;
+  left: 10%; 
+}
+
+.response1 h1{
+ 
+  font-size: 19px;
+  font: bolder;
+}
+
+.use{
+  position: absolute;
+  top: 284%;
+  left: 10%;
+}
+
+.use h1{
+  font-size: 30px;
+  font: italic;
+}
+
+.use1{
+position: absolute;
+  top: 305%;
+  left: 10%; 
+}
+
+.use1 h1{
+ 
+  font-size: 19px;
+  font: bolder;
+}
+
+.resimg{
+  position: absolute;
+  top: 234%;
+  left: 74%;
+}
+
+.resimg img{
+  width: 280px;
+  height: 185px;
+}
+
+.useimg{
+  position: absolute;
+  top: 300%;
+  left: 74%;
+}
+
+.useimg img{
+  width: 280px;
+  height: 180px;
+}
