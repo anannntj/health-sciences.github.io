@@ -52,3 +52,80 @@ body {
   color: black;
 }
 
+.pandemic{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.pandemic h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.p1{
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.p1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.panimg{
+  position: absolute;
+  top: 32%;
+  left: 70%;
+}
+
+.panimg img{
+  width: 300px;
+  height: 200px;
+}
+
+
+.impacts1{
+  position: absolute;
+  top: 97%;
+  left: 10%;
+}
+
+.impacts1 h1{
+  font: italic;
+  font-size: 19px;
+}
+
+.impacts{
+  position: absolute;
+  top: 74%;
+  left: 10%;
+}
+
+.impacts h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.com{
+  position: absolute;
+  top: 170%;
+  left: 10%;
+}
+
+.com h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.com1{
+  position: absolute;
+  top: 190%;
+  left: 10%;
+}
+
+.com1 h1{
+  font: italic;
+  font-size: 19px;
+}
