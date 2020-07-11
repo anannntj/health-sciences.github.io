@@ -52,3 +52,101 @@ body {
   color: black;
 }
 
+.pharmacy{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.pharmacy h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.pha1{
+  position: absolute;
+  top: 34%;
+  left: 10%;
+}
+
+.pha1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.phaimg{
+  position: absolute;
+  top: 32%;
+  left: 72%;
+}
+
+.phaimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.med{
+  position: absolute;
+  top: 78%;
+  left: 10%;
+}
+
+.med h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.med1{
+  position: absolute;
+  top: 99%;
+  left: 10%;
+}
+
+.med1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.medimg{
+  position: absolute;
+  top: 108%;
+  left: 70%;  
+}
+
+.medimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.te{
+  position: absolute;
+  top: 157%;
+  left: 10%;
+}
+
+.te h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.te1{
+  position: absolute;
+  top: 175%;
+  left: 10%;
+}
+
+.te1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.teimg{
+  position: absolute;
+  top: 170%;
+  left: 72%;
+}
+
+.teimg img{
+  width: 300px;
+  height: 200px;
+}
