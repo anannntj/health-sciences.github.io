@@ -129,3 +129,14 @@ body {
   font: italic;
   font-size: 19px;
 }
+
+.comimg{
+  position: absolute;
+  top: 190%;
+  left: 72%;
+}
+
+.comimg img{
+  width: 300px;
+  height: 200px;
+}
