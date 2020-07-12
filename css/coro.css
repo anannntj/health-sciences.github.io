@@ -118,3 +118,70 @@ body {
 .profile-content-wrapper h1 {
   color: lightseagreen;
 }
+
+.fir{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.fir h1{
+  font-size: 30px;
+  font: italic;
+}
+
+.fir1{
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.fir1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.sy{
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+.sy{
+  
+  font-size: 20px;
+  font: italic;
+}
+
+.sy1{
+  position: absolute;
+  top: 110%;
+  left: 10%;
+}
+
+.sy1 h1{
+  font: bolder;
+  font-size: 19px;
+}
+
+.treatment{
+  position: absolute;
+  top: 160%;
+  left: 10%;
+}
+
+.treatment h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.treatment1{
+  position: absolute;
+  top: 180%;
+  left: 10%;
+}
+
+.treatment1 h1{
+  font: italic;
+  font-size: 19px;
+}
