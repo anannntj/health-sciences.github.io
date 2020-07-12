@@ -185,3 +185,36 @@ body {
   font: italic;
   font-size: 19px;
 }
+
+.sarsimg{
+  position: absolute;
+  top: 26%;
+  left: 73%;
+}
+
+.sarsimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.coimg{
+  position: absolute;
+  top: 115%;
+  left: 73%;
+}
+
+.coimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.azimg{
+  position: absolute;
+  top: 179%;
+  left: 73%;
+}
+
+.azimg img{
+  width: 300px;
+  height: 200px;
+}
