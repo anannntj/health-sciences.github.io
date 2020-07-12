@@ -118,3 +118,25 @@ body {
 .profile-content-wrapper h1 {
   color: lightseagreen;
 }
+
+.con{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.con h1{
+  font: italic;
+  font-size: 30px;
+}
+
+.con1{
+position: absolute;
+top: 35%;
+left: 10%;
+}
+
+.con1 h1{
+  font: : bolder;
+  font-size: 19px;
+}
