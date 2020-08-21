@@ -52,3 +52,157 @@ body {
   color: black;
 }
 
+.pro1t{
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.pro1t h1{
+  font-size: 30px;
+  font: italic;
+}
+
+.pro1t2{
+  position: absolute;
+  top: 36%;
+  left: 10%;
+}
+
+.pro1t2 h1{
+  font-size: 25px;
+  font: italic;
+}
+
+.pro1t2r{
+  position: absolute;
+  top: 49%;
+  left: 10%;
+}
+
+.pro1t2r h1{
+  font-size: 18px;
+  font: italic;
+}
+
+.pro1t3{
+  position: absolute;
+  top: 73%;
+  left: 10%;
+}
+
+.pro1t3 h1{
+  font-size: 25px;
+  font: italic;
+}
+
+.pro1t3r{
+  position: absolute;
+  top: 85%;
+  left: 10%;
+}
+
+.pro1t3r h1{
+  font-size: 18px;
+  font: italic;
+}
+
+.pro1t4{
+  position: absolute;
+  top: 140%;
+  left: 10%;
+}
+
+.pro1t4 h1{
+  font-size: 25px;
+  font: italic;
+}
+
+.pro1t4r{
+  position: absolute;
+  top: 155%;
+  left: 10%;
+}
+
+.pro1t4r h1{
+  font-size: 18px;
+  font: italic;
+}
+
+.pro2t{
+  position: absolute;
+  top: 217%;
+  left: 10%;
+}
+
+.pro2t h1{
+  font-size: 30px;
+  font: italic;
+}
+
+.pro2t2{
+  position: absolute;
+  top: 235%;
+  left: 10%;
+}
+
+.pro2t2 h1{
+  font-size: 25px;
+  font: italic;
+}
+
+
+.pro2t2r{
+  position: absolute;
+  top: 249%;
+  left: 10%;
+}
+
+.pro2t2r h1{
+  font-size: 18px;
+  font: italic;
+}
+
+.pro2t3{
+  position: absolute;
+  top: 281%;
+  left: 10%;
+}
+
+.pro2t3 h1{
+  font-size: 25px;
+  font: italic;
+}
+
+.pro2t3r{
+  position: absolute;
+  top: 294%;
+  left: 10%;
+}
+
+.pro2t3r h1{
+  font-size: 18px;
+  font: italic;
+}
+
+.pro2i1{
+  position: absolute;
+  top: 289%;
+  left: 73%;
+}
+
+.pro2i1 img{
+  height: 250px;
+  width: 375px;
+}
+
+.pro2i2{
+  position: absolute;
+  top: 231%;
+  left: 73%;
+}
+
+.pro2i2 img{
+  height: 250px;
+  width: 375px;
+}
